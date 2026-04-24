@@ -4342,7 +4342,7 @@ movie_id;title;year;genres;genre_count
 6484;Man on the Train;;Comedy|Drama;2
 6493;Shape of Things, The;2003;Drama;1
 6502;Trip, The;2002;Comedy|Drama|Romance;3
-6503;101 Reykjavik;101;Comedy|Drama|Romance;3
+6503;101 Reykjavik;;Comedy|Drama|Romance;3
 6506;Chorus Line, A;1985;Comedy|Drama|Musical;3
 6509;Beat Street;1984;Drama|Musical;2
 6510;Breakin' 2: Electric Boogaloo;1984;Musical;1
@@ -5838,7 +5838,7 @@ movie_id;title;year;genres;genre_count
 36529;Incident at Loch Ness;2004;Adventure|Comedy|Documentary;3
 36533;Call Northside 777;1948;Crime|Drama|Film-Noir;3
 36535;Sword of Doom, The;;Action|Drama;2
-36537;800 Bullets;800;Comedy|Crime|Drama|Western;4
+36537;800 Bullets;;Comedy|Crime|Drama|Western;4
 36708;If Looks Could Kill;1991;Action|Comedy;2
 36850;Greedy;1994;Comedy;1
 36931;Pom Poko;;Animation|Comedy|Drama|Fantasy;4
