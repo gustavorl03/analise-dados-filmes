@@ -1,4 +1,4 @@
-user_Id;movie_Id;rating;rating_date;rating_year
+﻿user_id;movie_id;rating;rating_date;rating_year
 1;1;4.0;30/07/2000;2000
 1;3;4.0;30/07/2000;2000
 1;6;4.0;30/07/2000;2000
