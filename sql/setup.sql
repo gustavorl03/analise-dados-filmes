@@ -52,3 +52,31 @@ SELECT COUNT(*) FROM ratings;
 SELECT COUNT(*) FROM movies;
 SELECT * FROM movies LIMIT 10;
 SELECT * FROM ratings LIMIT 10;
+
+SELECT COUNT(*) 
+FROM movies
+WHERE title IS NULL;
+
+SELECT COUNT(*) 
+FROM ratings
+WHERE rating IS NULL;
+
+SELECT MIN(rating), MAX(rating)
+FROM ratings;
+
+SELECT user_id, movie_id, COUNT(*)
+FROM ratings
+GROUP BY user_id, movie_id
+HAVING COUNT(*) > 1;
+
+SELECT *
+FROM ratings r
+LEFT JOIN movies m ON r.movie_id = m.movie_id
+WHERE m.movie_id IS NULL;
+
+SELECT 
+m.title,
+r.rating
+FROM ratings r
+JOIN movies m ON r.movie_id = m.movie_id
+LIMIT 10;
