@@ -51,7 +51,7 @@ As principais análises incluem:
 
 ## 📊 Métrica de Score
 
-Foi criada uma métrica de score para equilibrar a média de avaliação e o número de avaliações, reduzindo o impacto de filmes com poucas avaliações.
+Foi criada uma métrica de score para equilibrar a média de avaliação e o número de avaliações, reduzindo o impacto de filmes com poucas avaliações (Score = média de avaliação * log(quantidade de avaliações)).
 
 Essa abordagem permite identificar filmes com melhor equilíbrio entre popularidade e qualidade.
 
