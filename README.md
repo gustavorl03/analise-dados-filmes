@@ -58,10 +58,8 @@ Essa abordagem permite identificar filmes com melhor equilíbrio entre popularid
 ## 📊 Dashboard
 Visualização interativa desenvolvida no Power BI:
 
-
-```markdown
 ![Dashboard](powerbi/dashboard.png)
-```
+
 
 ---
 
