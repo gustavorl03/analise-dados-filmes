@@ -20,25 +20,24 @@ Analisar dados de filmes para identificar padrões de comportamento dos usuário
 
 ## 🛠️ Ferramentas Utilizadas
 
-* Excel: tratamento e limpeza dos dados
-* PostgreSQL: modelagem e análise de dados
-* Power BI: visualização e dashboard
+* Excel: tratamento e limpeza dos dados;
+* PostgreSQL: modelagem e análise de dados;
+* Power BI: visualização e dashboard.
 
 ---
 
 ## ⚙️ Etapas do Projeto
 
-* Tratamento de dados no Excel
-* Modelagem e análise no PostgreSQL
-* Criação de views analíticas
-* Desenvolvimento de métricas (média e score)
-* Construção do dashboard
+* Tratamento de dados no Excel;
+* Modelagem e análise no PostgreSQL;
+* Criação de views analíticas;
+* Desenvolvimento de métricas (média e score);
+* Construção do dashboard.
 
 ---
 
 ## 📊 Dashboard
 
-*(adicione o print aqui)*
 
 ```markdown
 ![Dashboard](powerbi/dashboard.png)
@@ -48,10 +47,15 @@ Analisar dados de filmes para identificar padrões de comportamento dos usuário
 
 ## 🧠 Principais Insights
 
-* Popularidade não é sinônimo de qualidade
-* Avaliações se concentram em notas intermediárias
-* Filmes com poucas avaliações podem distorcer análises
-* O uso de score melhora a confiabilidade das recomendações
+A análise mostrou que filmes com maior volume de avaliações nem sempre apresentam as melhores notas médias, evidenciando que popularidade não é sinônimo de qualidade.
+
+Observou-se também que filmes com poucas avaliações tendem a apresentar notas mais extremas, o que indica baixa confiabilidade estatística e possível distorção na análise.
+
+A distribuição das avaliações revelou que a maior parte das notas está concentrada entre valores intermediários (3.0 a 4.0), sugerindo um comportamento mais conservador por parte dos usuários.
+
+Além disso, a utilização de um score combinando média de avaliação e volume de avaliações se mostrou mais eficaz para ranquear filmes, reduzindo o impacto de avaliações isoladas e destacando conteúdos mais consistentes.
+
+Por fim, a análise de gêneros indicou a presença de categorias predominantes, refletindo padrões de produção e preferência do público.
 
 ---
 
@@ -82,5 +86,3 @@ analise-filmes/
 ├── LICENSE
 └── README.md
 ```
-
-    
