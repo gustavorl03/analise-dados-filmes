@@ -1,62 +1,86 @@
-🎬 Análise de Filmes: Popularidade vs Qualidade
+# 🎬 Análise de Filmes: Popularidade vs Qualidade
 
 Projeto de análise de dados desenvolvido com foco em entender a relação entre popularidade e qualidade de filmes, utilizando SQL e Power BI.
 
-📌 Problema de Negócio
+---
 
-Plataformas de streaming enfrentam o desafio de recomendar filmes relevantes considerando tanto a popularidade quanto a qualidade das avaliações.
+## 📌 Problema de Negócio
 
-Apenas utilizar o número de avaliações pode favorecer conteúdos populares, enquanto considerar somente a média pode destacar filmes com pouca confiabilidade estatística.
+As plataformas de streaming enfrentam o desafio de recomendar filmes relevantes considerando tanto a popularidade quanto a qualidade das avaliações.
 
-🎯 Objetivo
+Apenas usar o número de avaliações pode favorecer conteúdos populares, enquanto considerar apenas a média pode destacar filmes com pouca confiabilidade estatística.
+
+---
+
+## 🎯 Objetivo
 
 Analisar dados de filmes para identificar padrões de comportamento dos usuários e propor uma métrica que combine qualidade e volume de avaliações.
 
-🛠️ Ferramentas Utilizadas
-Excel: tratamento e limpeza dos dados;
-PostgreSQL: modelagem e análise dos dados;
-Power BI: visualização e dashboard.
+---
 
+## 🛠️ Ferramentas Utilizadas
 
-⚙️ Etapas do Projeto
-Tratamento dos dados no Excel;
-Modelagem e análise no PostgreSQL;
-Criação de views analíticas;
-Desenvolvimento de métricas (média e score);
-Construção do dashboard.
+* Excel: tratamento e limpeza dos dados
+* PostgreSQL: modelagem e análise de dados
+* Power BI: visualização e dashboard
 
+---
 
-📊 Dashboard
+## ⚙️ Etapas do Projeto
 
-(adicione o print aqui)
+* Tratamento de dados no Excel
+* Modelagem e análise no PostgreSQL
+* Criação de views analíticas
+* Desenvolvimento de métricas (média e score)
+* Construção do dashboard
 
+---
 
-🧠 Principais Insights
-Popularidade não é sinônimo de qualidade;
-Avaliações se concentram em notas intermediárias;
-Filmes com poucas avaliações podem distorcer análises;
-O uso de score melhora a confiabilidade das recomendações.
+## 📊 Dashboard
 
+*(adicione o print aqui)*
 
-📂 Estrutura do Projeto
-    analise-filmes/
-        │
-        ├── .gitignore
-        │
-        ├── dados/
-        │   ├── brutos/
-        │   └── tratados/
-        │
-        ├── excel/
-        │   ├── movies_final/
-        │   └── rating_final/
-        │
-        ├── sql/
-        │   ├── setup.sql
-        │   ├── analises.sql
-        │   ├── views.sql
-        |
-        ├── .gitattributes
-        |── LICENSE
-        └── README.md
+```markdown
+![Dashboard](powerbi/dashboard.png)
+```
+
+---
+
+## 🧠 Principais Insights
+
+* Popularidade não é sinônimo de qualidade
+* Avaliações se concentram em notas intermediárias
+* Filmes com poucas avaliações podem distorcer análises
+* O uso de score melhora a confiabilidade das recomendações
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+analise-filmes/
+│
+├── .gitignore
+│
+├── dados/
+│   ├── brutos/
+│   └── tratados/
+│
+├── excel/
+│   ├── movies_final/
+│   └── rating_final/
+│
+├── powerbi/
+│   └── dashboard.pbix
+│
+├── sql/
+│   ├── setup.sql
+│   ├── analises.sql
+│   └── views.sql
+│
+├── .gitattributes
+├── LICENSE
+└── README.md
+```
+
     
