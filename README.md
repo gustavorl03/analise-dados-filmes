@@ -46,6 +46,8 @@ As principais análises incluem:
 - Agrupamento por gênero
 - Criação de métricas derivadas como score
 
+---
+
 
 ## 📊 Métrica de Score
 
@@ -54,16 +56,13 @@ Foi criada uma métrica de score para equilibrar a média de avaliação e o nú
 Essa abordagem permite identificar filmes com melhor equilíbrio entre popularidade e qualidade.
 
 
-
 ## 📊 Dashboard
 Visualização interativa desenvolvida no Power BI:
 
 ![Dashboard](powerbi/dashboard.png)
 
-
 ---
 
-## 🧠 Principais Insights
 
 ## 🧠 Principais Insights
 
@@ -78,6 +77,7 @@ Além disso, a utilização de um score que combina média de avaliação e volu
 Por fim, a análise por gênero revelou diferenças na concentração de avaliações e médias, indicando possíveis variações no comportamento do público de acordo com o tipo de conteúdo consumido.
 
 ---
+
 
 ## 📂 Estrutura do Projeto
 
@@ -96,7 +96,7 @@ analise-filmes/
 │
 ├── powerbi/
 │   ├── dashboard.pbix
-│   ├── dashboard.png
+│   └── dashboard.png
 
 ├── sql/
 │   ├── setup.sql
