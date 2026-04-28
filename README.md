@@ -38,10 +38,8 @@ Analisar dados de filmes para identificar padrões de comportamento dos usuário
 
 ## 📊 Dashboard
 
-
-```markdown
 ![Dashboard](powerbi/dashboard.png)
-```
+
 
 ---
 
