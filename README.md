@@ -36,7 +36,27 @@ Analisar dados de filmes para identificar padrões de comportamento dos usuário
 
 ---
 
+## 🗄️ Modelagem e SQL
+
+Os dados foram estruturados em tabelas relacionais e posteriormente transformados em views analíticas.
+
+As principais análises incluem:
+- Cálculo de média de avaliações
+- Contagem de avaliações por filme
+- Agrupamento por gênero
+- Criação de métricas derivadas como score
+
+
+## 📊 Métrica de Score
+
+Foi criada uma métrica de score para equilibrar a média de avaliação e o número de avaliações, reduzindo o impacto de filmes com poucas avaliações.
+
+Essa abordagem permite identificar filmes com melhor equilíbrio entre popularidade e qualidade.
+
+
+
 ## 📊 Dashboard
+Visualização interativa desenvolvida no Power BI:
 
 
 ```markdown
@@ -47,15 +67,17 @@ Analisar dados de filmes para identificar padrões de comportamento dos usuário
 
 ## 🧠 Principais Insights
 
-A análise mostrou que filmes com maior volume de avaliações nem sempre apresentam as melhores notas médias, evidenciando que popularidade não é sinônimo de qualidade.
+## 🧠 Principais Insights
 
-Observou-se também que filmes com poucas avaliações tendem a apresentar notas mais extremas, o que indica baixa confiabilidade estatística e possível distorção na análise.
+A análise evidenciou que filmes com maior volume de avaliações tendem a apresentar notas médias mais estáveis, enquanto filmes com poucas avaliações apresentam maior variabilidade, indicando menor confiabilidade estatística.
 
-A distribuição das avaliações revelou que a maior parte das notas está concentrada entre valores intermediários (3.0 a 4.0), sugerindo um comportamento mais conservador por parte dos usuários.
+Observou-se também que a popularidade, medida pela quantidade de avaliações, não está diretamente associada à qualidade percebida, já que diversos filmes amplamente avaliados possuem médias inferiores a outros menos populares.
 
-Além disso, a utilização de um score combinando média de avaliação e volume de avaliações se mostrou mais eficaz para ranquear filmes, reduzindo o impacto de avaliações isoladas e destacando conteúdos mais consistentes.
+A distribuição das avaliações mostra uma forte concentração em notas intermediárias, sugerindo um comportamento conservador dos usuários ao avaliar filmes, com menor incidência de notas extremas.
 
-Por fim, a análise de gêneros indicou a presença de categorias predominantes, refletindo padrões de produção e preferência do público.
+Além disso, a utilização de um score que combina média de avaliação e volume de avaliações permitiu identificar filmes com melhor equilíbrio entre qualidade e relevância, reduzindo o impacto de avaliações isoladas.
+
+Por fim, a análise por gênero revelou diferenças na concentração de avaliações e médias, indicando possíveis variações no comportamento do público de acordo com o tipo de conteúdo consumido.
 
 ---
 
@@ -75,8 +97,9 @@ analise-filmes/
 │   └── rating_final/
 │
 ├── powerbi/
-│   └── dashboard.pbix
-│
+│   ├── dashboard.pbix
+│   ├── dashboard.png
+
 ├── sql/
 │   ├── setup.sql
 │   ├── analises.sql
